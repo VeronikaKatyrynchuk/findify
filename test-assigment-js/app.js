@@ -6,5 +6,8 @@ toggleSwitch.addEventListener('click', () => {
     card.classList.toggle('active');
 }); 
 
+// range slider
+
+
 
 
