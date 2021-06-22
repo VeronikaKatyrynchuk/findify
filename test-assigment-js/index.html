@@ -32,17 +32,25 @@
         <div class="sub-text">(approximately)</div>
 
         <div class="range">
-            <div class="sliderValue">
-              <span>100</span>
-            </div>
+            <input
+                id="input"
+                type="range"
+                min="0"            
+                max="100"    
+                value="0"
+                step="1"
+                />
+            <div id="output"></div>
 
-            <div class="field">
-                <div class="value left"> 0</div>
-                <input type="range" min="10" max="200" value="100" steps="1">
-                <div class="value right">200</div>
+            <div class="values">
+                <div class="value">&#36;0 - &#36;30,000</div>
+                <div class="value">&#36;30,000 - &#36;200,000</div>
+                <div class="value">&#36;200,000 - &#36;1 million</div>
+                <div class="value">&#36;1 million & up</div>
             </div>
         </div>
     </section>
+
     <script src="app.js"></script>
 </body>
 </html>
