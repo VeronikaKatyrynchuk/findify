@@ -9,8 +9,21 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f66ea1e907.js" crossorigin="anonymous"></script>
 </head>
 <body>
+
+    <section class="intro">
+        <h1 class="intro-title">Hi Findify Team!&#128075;</h1>
+        <div class="intro-subtext">I'm Veronika, a self-taught junior front-end developer with a hungry mind for learning. It would be an honour for me to join Findify as I'm zest to work with professionals.  I want to be challenged and make an impact. My lack of experience is a big advantage cause a company can nurture cool senior developer. 
+            <br/>Thank you for your time!</div>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/webvero/" class="link"> <i class="fab fa-linkedin">Let's connect on LinkedIn </i></a>
+                <a href="https://www.instagram.com/web_vero/" class="link"> <i class="fab fa-instagram">Take a quick look-see at dev journey</i></a>
+                <a href="https://github.com/VeronikaKatyrynchuk?tab=repositories" class="link"> <i class="fab fa-github">Check out my repo</i></a>
+            </div>
+    </section>
+
     <!--Interaction with a switch-->
     <section class="switch-toggle">
         <div class="container">
@@ -32,15 +45,15 @@
         <div class="sub-text">(approximately)</div>
 
         <div class="range">
-            <input
-                id="input"
-                type="range"
-                min="0"            
-                max="100"    
-                value="0"
-                step="1"
-                />
-            <div id="output"></div>
+            <div class="input-value">&#36;<span id="input-value"> </span></div>
+            <input 
+                type="range" 
+                min="0" 
+                max="1000000" 
+                value="0" 
+                class="slider-range" 
+                id="range"
+            >
 
             <div class="values">
                 <div class="value">&#36;0 - &#36;30,000</div>

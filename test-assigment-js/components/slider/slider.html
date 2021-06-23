@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Range Slider</title>
+    <link rel="stylesheet" href="slider.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <section class="range-slider">
+        <h1 class="title">What are your monthly online sales?</h1>
+        <div class="sub-text">(approximately)</div>
+
+        <div class="range">
+            <div class="input-value">&#36;<span id="input-value"></span></div>
+            <input 
+                type="range" 
+                min="0" 
+                max="1000000" 
+                value="0" 
+                class="slider-range" 
+                id="range"
+            >
+
+            <div class="values">
+                <div class="value">&#36;0 - &#36;30,000</div>
+                <div class="value">&#36;30,000 - &#36;200,000</div>
+                <div class="value">&#36;200,000 - &#36;1 million</div>
+                <div class="value">&#36;1 million & up</div>
+            </div>
+        </div>
+    </section>
+    
+    <script src="slider.js"></script>
+</body>
+</html>
